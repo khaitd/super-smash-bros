@@ -1,16 +1,28 @@
 
 .App {
   display: flex;
-  justify-content: center;
+  justify-self: center;
   align-items: center;
   flex-direction: column;
 }
 
 .fighters-grid {
+  display: flex;
   background-color: #ccc;
   border: 1px solid #858585;
   border-radius: 5px;
-  max-width: 45%;
+  min-width: 45%;
   min-height: 500px;
 }
 
+.fighter {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+
+
+}
+
+.fighter:hover {
+  transform: scale(1.1);
+}
